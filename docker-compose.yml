@@ -1,0 +1,12 @@
+services:
+  finance-bot:
+    build: .
+    image: finance-tracker-bot:latest
+    container_name: finance-tracker-bot
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # Часовой пояс для времени трат. Поменяй здесь, если переедешь.
+      TZ: ${TZ:-Europe/Prague}
+    volumes:
+      - ./data:/data

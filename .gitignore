@@ -1,0 +1,19 @@
+# Секреты
+.env
+
+# Данные: БД и кэш курсов
+data/
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
