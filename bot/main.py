@@ -269,7 +269,7 @@ async def add_amount(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if raw == BTN_CANCEL:
         return await cancel(update, context)
     amount, cur = parse_amount(raw)
-    if amount is None or amount <= 0 or amount > 100_000_000:
+    if amount is None or amount <= 0:
         await update.message.reply_text("Не понял сумму 🤔 Напиши число, например 250.",
                                         reply_markup=cancel_kb())
         return A_AMOUNT
