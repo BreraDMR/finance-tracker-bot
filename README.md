@@ -77,4 +77,7 @@ timezone with the `TZ` variable in `.env` / `docker-compose.yml`.
 
 ## License
 
-MIT
+Licensed under [PolyForm Noncommercial 1.0.0](LICENSE) — free for personal,
+educational, and other noncommercial use. Commercial use requires a separate
+license; contact damir.brera.eb@gmail.com.
+
