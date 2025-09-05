@@ -1,4 +1,16 @@
-# Spending — Telegram finance tracker bot
+<div align="center">
+
+# 💸 Spending — Telegram finance tracker
+
+**Log an expense in a few taps, split it across your own categories, shops and wallets, keep several currencies side by side, and see where the month actually went.**
+
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=for-the-badge)](requirements.txt)
+[![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-21.x%20async-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](requirements.txt)
+[![matplotlib](https://img.shields.io/badge/matplotlib-charts-11557C?style=for-the-badge)](requirements.txt)
+[![SQLite](https://img.shields.io/badge/SQLite-storage-003B57?logo=sqlite&logoColor=white&style=for-the-badge)](#tech)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)](docker-compose.yml)
+
+</div>
 
 A button-driven Telegram bot for tracking personal expenses, built as a bigger sibling of
 [cigarette-counter-bot](https://github.com/BreraDMR/cigarette-counter-bot). You log a
