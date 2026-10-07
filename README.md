@@ -12,6 +12,10 @@
 
 </div>
 
+https://github.com/user-attachments/assets/2ab7b4d4-e199-4f0d-a39f-1499ecfefe20
+
+<sub>A 24-second overview. The chat is the bot's own replies, buttons and charts, recorded offline from its real handlers on demo data. The bot's interface is in Russian. The file is also in <a href="docs/media/finance-tracker-bot-overview.mp4"><code>docs/media/finance-tracker-bot-overview.mp4</code></a>.</sub>
+
 A button-driven Telegram bot for tracking personal expenses, built as a bigger sibling of
 [cigarette-counter-bot](https://github.com/BreraDMR/cigarette-counter-bot). You log a
 spend in a few taps, split it across your own **categories** and **shops**, keep money in
